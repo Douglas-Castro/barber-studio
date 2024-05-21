@@ -1,10 +1,10 @@
 <?php
-include './componentes/header.php';
+include '../componentes/header.php';
 ?>
     <div class="container d-flex justify-content-center">
-        <form action="" method="post">
+        <form action="../Model/login.php" method="post">
             <div class="text-center my-5">
-                <img src="./assets/logo.PNG" height="70px" width="auto">
+                <img src="../assets/logo.PNG" height="70px" width="auto">
             </div>
             
             <h2 class="my-3 text-center">Acesse sua conta!</h2>
@@ -31,10 +31,10 @@ include './componentes/header.php';
 
             <div class="text-center">
                 <a class="btn btn-danger" href="./cadastro.php">Cadastrar-se</a>
-                <a class="btn btn-dark" href="./site/service/index.php">Entrar</a>
+                <button type="submit" class="btn btn-dark">Entrar</button>
             </div>
         </form>
     </div>
 <?php
-include './componentes/footer.php';
+include '../componentes/footer.php';
 ?>

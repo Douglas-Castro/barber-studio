@@ -1,4 +1,5 @@
 <?php
+include_once '../../componentes/verificar_login.php';
 include '../../componentes/header.php';
 include '../../componentes/menu_admin.php';
 ?>
@@ -35,4 +36,6 @@ include '../../componentes/menu_admin.php';
         <a class="btn btn-danger" href="index.php">Cancelar</a>
         <button type="submit" class="btn btn-dark">Adicionar</button>
     </form>
-</x-layout>
+<?php
+include '../../componentes/footer.php';
+?>

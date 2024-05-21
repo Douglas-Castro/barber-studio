@@ -1,4 +1,5 @@
 <?php
+include_once '../../componentes/verificar_login.php';
 include '../../componentes/header.php';
 include '../../componentes/menu_admin.php';
 ?> 
